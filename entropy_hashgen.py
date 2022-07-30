@@ -2,7 +2,7 @@
 Entropy Hashgen
 Written by: N.M.
 Version: 1.0
-https://hashgen.n3p.xyz
+https://hashgen.neps.dev
 """
 
 import hashlib, string, tkinter as tk, sys, os, base64
@@ -163,7 +163,7 @@ def populate_main_window(frm_main):
             copyright_year = "2021-" + str(copyright_year)    
 
         about_title = "About"
-        about_info = f"Entropy Hashgen {version} \n\nCopyright © {copyright_year} N.M.\nhashgen.n3p.xyz"
+        about_info = f"Entropy Hashgen {version} \n\nCopyright © {copyright_year} N.M.\nhashgen.neps.dev"
 
         messagebox.showinfo(about_title, about_info)       
     btn_about.configure(command=CLICK_about)
